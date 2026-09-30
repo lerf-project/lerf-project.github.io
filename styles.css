@@ -27,3 +27,7 @@
 @media(max-width:640px){.demo-body{grid-template-columns:minmax(0,1fr);padding:18px;gap:20px}.tool-call-panel{border-inline:0;border-block:1px solid #ddd;padding:17px 0;min-height:390px}.tool-call-panel pre{font-size:13px}.demo-body .query p{font-size:22px}.demo-body .pipeline-stages strong{font-size:14px}.publication-links a{font-size:13px}}
 
 .findings .paper-figure{margin:18px 0 20px}.findings figcaption{text-align:left;font-size:12px}.findings .figure-link{background:#fff}
+.citation{padding-block:40px;border-top:1px solid var(--line)}
+.citation pre{margin:0;padding:24px;background:#fafafa;border:1px solid var(--line);border-radius:5px;font:13px/1.7 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere}
+.citation code{font:inherit}
+@media(max-width:640px){.citation{padding-block:30px}.citation pre{padding:16px;font-size:12px}}
